@@ -1,0 +1,21 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		meta(name="description" content="Stewp")
+		meta(name="author" content="EdsonFOropeza")
+		title Stewp
+		style
+			include ../public/assets/css/materialize.css
+			include ../public/assets/css/gallery-materialize.min.css
+			include ../public/assets/css/main.css
+		link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+	body
+		include ./inc/navbar.pug
+		block container
+		include ./inc/footer.pug
+	script
+		include ../public/assets/js/jquery.js
+		include ../public/assets/js/materialize.min.js
+		include ../public/assets/js/init.js

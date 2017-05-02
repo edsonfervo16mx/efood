@@ -1,0 +1,43 @@
+.bg-color-primary{
+	background: rgb(238, 110, 115) !important;
+	/*
+		#ee6e73
+	*/
+}
+
+.title-primary{
+	color: rgb(238, 110, 115) !important;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 82%;
+  }
+}
+
+.justify {
+	text-align: justify;
+}
+
+.bg-color-footer{
+	background: rgb(122,122,122) !important;
+}
+
+.page-footer{
+	margin-top: 0px !important;
+}
+
+.red-stewp{
+	background: rgb(238, 110, 115) !important;
+}
+
+.red-stewp-dark{
+	background: rgb(236,99,105) !important;
+}
+
+.cocina{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
