@@ -4,15 +4,37 @@ block container
 		div(class="container")
 			div(class="panel panel-default")
 				div(class="panel-body")
-					div(class="row inputs")
-						div(class="input-field col l3 m3 s12")
-							select(name="location" id="location")
-								option(value="" disabled selected) Elige una Ubicación
-								option(value="Comalcalco") Comalcalco
-								option(value="Villahermosa") Villahermosa
-								option(value="Merida") Merida
-							label(for="location").
-								Ubicación
+					form()
+						div(class="row inputs")
+							div(class="input-field col l3 m3 s12")
+								select(name="location" id="location")
+									option(value="" disabled selected) Elige una Ubicación
+									option(value="Comalcalco") Comalcalco
+									option(value="Villahermosa") Villahermosa
+									option(value="Merida") Merida
+								label(for="location").
+									Ubicación
+							div(class="input-field col l3 m3 s12")
+								select(name="money" id="money")
+									option(value="" disabled selected) Elige un Presupuesto
+									option(value="50") $ 50.00 MXN
+									option(value="100") $ 100.00 MXN
+									option(value="200") $ 200.00 MXN
+									option(value="300") $ 300.00 MXN
+									option(value="500") $ 500.00 MXN
+								label(for="money").
+									Presupuesto
+							div(class="input-field col l3 m3 s12")
+								select(name="order" id="order")
+									option(value="" disabled selected) Elige el Servicio
+									option(value="home") A Domicilio
+									option(value="takeout") Para llevar
+									option(value="eating") En restaurante
+								label(for="order").
+									Elige el Servicio
+							div(class="input-field col l3 m3 s12 center-align")
+								button(class="btn waves-effect waves-light" type="submit" name="action").
+									Buscar #[i(class="material-icons right" ) search]
 	div(class="section white")
 		div(class="container")
 			div(class="row")
@@ -28,9 +50,13 @@ block container
 						div(class="card-content grey lighten-5")
 							p().
 								Descripción del Restaurante
+							small(class="working-hours").
+								Horarios 10:00 AM a 6:00 PM Lunes a Domingo
 						div(class="card-action grey lighten-5")
 							a(href="#").
-								Ver el menú
+								#[i(class="material-icons") thumb_up] Favorito
+							a(href="#").
+								#[i(class="material-icons") shopping_cart] Ordenar
 				div(class="col l4 m4 s12")
 					div(class="card")
 						div(class="card-image box-card")
@@ -43,9 +69,13 @@ block container
 						div(class="card-content grey lighten-5")
 							p().
 								Descripción del Restaurante
+							small(class="working-hours").
+								Horarios 10:00 AM a 2:00 PM Lunes a Sabado
 						div(class="card-action grey lighten-5")
 							a(href="#").
-								Ver el menú
+								#[i(class="material-icons") thumb_up] Favorito
+							a(href="#").
+								#[i(class="material-icons") shopping_cart] Ordenar
 				div(class="col l4 m4 s12")
 					div(class="card")
 						div(class="card-image box-card")
@@ -58,7 +88,11 @@ block container
 						div(class="card-content grey lighten-5")
 							p().
 								Descripción del Restaurante
+							small(class="working-hours").
+								Horarios 10:00 AM a 6:00 PM Lunes a Domingo
 						div(class="card-action grey lighten-5")
 							a(href="#").
-								Ver el menú
+								#[i(class="material-icons") thumb_up] Favorito
+							a(href="#").
+								#[i(class="material-icons") shopping_cart] Ordenar
 						
