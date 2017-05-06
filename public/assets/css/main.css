@@ -1,7 +1,10 @@
-.bg-color-primary{
-	background: rgb(238, 110, 115) !important;
+.bcolor-primary{
+	background: rgb(245,104,60) !important;
 	/*
 		#ee6e73
+		rgb(238, 110, 115)
+		rgb(244,89,41)
+		rgb(245,96,50)
 	*/
 }
 
@@ -20,7 +23,7 @@
 }
 
 .bg-color-footer{
-	background: rgb(122,122,122) !important;
+	background: #424242 !important;
 }
 
 .page-footer{
@@ -31,8 +34,8 @@
 	background: rgb(238, 110, 115) !important;
 }
 
-.red-stewp-dark{
-	background: rgb(236,99,105) !important;
+.bcolor-primary-dark{
+	background: rgb(245,96,50) !important;
 }
 
 .cocina{
@@ -44,7 +47,7 @@
 
 .box-card{
 	height: 200px;
-	background: #26a69a;
+	background: #616161;
 }
 
 
@@ -54,6 +57,28 @@
 }
 
 .restaurante-title{
-	background: rgb(238, 110, 115) !important;
+	/*background: rgb(238, 110, 115) !important;*/
+	background: #f5683c;
 	padding: 5px 15px !important;
+}
+
+.panel {
+	margin-top: 15px;
+	margin-bottom: 10px;
+  	background-color: #fff;
+  	border: 1px solid transparent;
+  	border-radius: 4px;
+  	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-body {
+  	padding: 15px;
+}
+
+.panel-default {
+  	border-color: #ddd;
+}
+
+.inputs{
+	margin-bottom: 0px;
 }
