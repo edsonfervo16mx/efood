@@ -8,8 +8,12 @@
 	*/
 }
 
-.title-primary{
-	color: rgb(238, 110, 115) !important;
+.title-eat{
+	color: rgb(245,104,60) !important;
+}
+
+.title-kitchen{
+	color: rgb(0,178,161) !important;
 }
 
 @media only screen and (min-width: 993px) {
@@ -85,4 +89,8 @@
 
 .material-icons{
 	font-size: 20px !important;
+}
+
+.things-card{
+
 }

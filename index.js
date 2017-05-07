@@ -16,7 +16,15 @@ app.get("/",function(request,response){
 })
 
 app.get("/platform",function(request,response){
-	response.render("platform.pug",{title: "Plataforma", subtitle: "La plataforma de gestión de restaurante más completa"});
+	response.render("platform.pug",{title: "Plataforma", subtitle: "La plataforma de restaurantes más completa"});
+})
+
+app.get("/signup",function(request,response){
+	response.render("signup.pug",{title: "Registro", subtitle: "Solo necesitas una cuenta"});
+})
+
+app.get("/signin",function(request,response){
+	response.render("signin.pug",{title: "Iniciar sesión", subtitle: "La mejor experiencia en comida"});
 })
 
 // end vistas
